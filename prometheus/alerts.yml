@@ -1,0 +1,12 @@
+groups:
+  - name: app-alerts
+    rules:
+      - alert: CriticalHighErrorRate
+        # Fire when the app produces more than 5 errors within one minute.
+        expr: increase(app_errors_total[1m]) > 5
+        for: 0m
+        labels:
+          severity: CRITICAL
+        annotations:
+          summary: "CRITICAL: Application error rate is too high"
+          description: "The application generated more than 5 errors in the last minute."

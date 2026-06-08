@@ -1,0 +1,4 @@
+# Place evidence screenshots here:
+#   grafana-dashboard.png   - Grafana dashboard showing request/error panels
+#   kibana-json-logs.png    - Kibana showing parsed JSON log fields
+#   grafana-alerting.png    - Grafana/Prometheus showing the CRITICAL alert firing
