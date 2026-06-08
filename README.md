@@ -216,6 +216,12 @@ visible in Grafana).
 
 **Grafana / Prometheus alert firing:**
 
+![Grafana rule](docs/screenshots/grafana-rule.png)
+
+![Grafana rule firing](docs/screenshots/grafana-rule-firing.png)
+
+![Grafana inactive](docs/screenshots/grafana-inactive.png)
+
 ![Grafana alerting](docs/screenshots/grafana-alerting.png)
 
 ---
